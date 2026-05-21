@@ -13,7 +13,7 @@ import { useBooking } from '../bookings/useBooking';
 import Checkbox from '../../ui/Checkbox';
 import { useEffect, useState } from 'react';
 import { formatCurrency } from '../../utils/helpers';
-import { useCheckin } from './usecheckin';
+import { useCheckin } from './useCheckin';
 import { useSettings } from '../settings/useSettings';
 
 const Box = styled.div`
